@@ -20,7 +20,7 @@ const useFetch = (url) => {
             setTimeout(() => {
             setData(data);
             setIsPending(false)
-            }, 0);
+            }, 1000);
         })
         .catch((err) => {
         setIsPending(false)
